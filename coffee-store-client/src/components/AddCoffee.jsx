@@ -1,6 +1,6 @@
 const AddCoffee = () => {
   return (
-    <div>
+    <div className="bg-[#F4F3F0]">
       <h2>Add A Coffee</h2>
       <form>
         <div className="flex">
