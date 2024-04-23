@@ -1,5 +1,5 @@
 const CoffeeCard = ({ coffee }) => {
-  const { name, quantity, supplier, taste, category, details, photo } = coffee;
+  const { _id, name, quantity, supplier, taste, category, details, photo } = coffee;
 
   return (
     <div className="card card-side bg-base-100 shadow-xl gap-4 p-4">
@@ -17,7 +17,7 @@ const CoffeeCard = ({ coffee }) => {
           <div className="join join-vertical space-y-4">
             <button className="btn join-item">View</button>
             <button className="btn join-item">Edit</button>
-            <button className="btn join-item">Remove</button>
+            <button className="btn join-item bg-red-500 text-white">Remove</button>
           </div>
         </div>
       </div>
